@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        // title: ['"Pacifico"', "sans-serif"], // possibly old syntax
+        title: '"Pacifico", cursive', // new syntax
+      },
+    },
   },
   plugins: [],
 };
